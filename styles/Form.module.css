@@ -80,3 +80,19 @@
 .exercise_inputGroup .inputGroup:first-child input {
   width: 200px;
 }
+@media (max-width: 450px) {
+  .wrapper {
+    width: 90%;
+  }
+  .wrapper input {
+    width: 100%;
+  }
+}
+@media (min-width: 450px) and (max-width: 650px) {
+  .wrapper {
+    width: 90%;
+  }
+  .wrapper input {
+    width: 100%;
+  }
+}

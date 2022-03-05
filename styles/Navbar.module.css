@@ -26,5 +26,35 @@
   color: white;
   margin-left: 30px;
 }
-@media (min-width: 1200px) {
+@media (max-width: 450px) {
+  .container {
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .links {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+}
+@media (min-width: 450px) and (max-width: 650px) {
+  .container {
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .links {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
 }
