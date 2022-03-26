@@ -87,6 +87,14 @@
   .wrapper input {
     width: 100%;
   }
+  .exercise_inputGroup input {
+    width: 60px !important;
+    margin-right: 10px !important;
+    outline: none;
+  }
+  .exercise_inputGroup .inputGroup:first-child input {
+    width: 10px !important;
+  }
 }
 @media (min-width: 450px) and (max-width: 650px) {
   .wrapper {
@@ -94,5 +102,17 @@
   }
   .wrapper input {
     width: 100%;
+  }
+  .exercise_inputGroup {
+    display: flex;
+    margin-right: 10px;
+  }
+  .exercise_inputGroup input {
+    width: 80px !important;
+    margin-right: 10px !important;
+    outline: none;
+  }
+  .exercise_inputGroup .inputGroup:first-child input {
+    width: 150px !important;
   }
 }
